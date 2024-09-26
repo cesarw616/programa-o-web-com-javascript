@@ -1,0 +1,27 @@
+s{
+    background-color: black;
+    color: green;
+}
+
+b{
+    background-color: red;
+    color: white;
+}
+
+u{
+    color: red;
+}
+
+strong{
+    font-size: 18pt;
+}
+
+p{
+    display: block;
+    width: 500px;
+    height: auto;
+    border-radius: 100px;
+    border: 2px solid red;
+    padding: 50px;
+    box-shadow: 20px 20px 0px 0px  gray;
+}
