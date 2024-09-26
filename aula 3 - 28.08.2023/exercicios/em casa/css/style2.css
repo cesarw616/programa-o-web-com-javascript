@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&family=Montserrat:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gluten', cursive;
+    line-height: 2px;
+    background-color: #e2e2e2;
+    padding: 0 20px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+input{
+    border-radius: 0;
+}
+
+.card{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 425px;
+    padding: 10px;
+}
+
+.card-image{
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: url("../img/fotoCafe.jpg");
+    padding-bottom: 65%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.card-heading{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e7ca87;
+}
+
+.card-heading small{
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 400px;
+}
