@@ -1,0 +1,15 @@
+#tab{
+    border: 1pt solid;
+}
+
+.aprovado{
+    background-color: green;
+}
+
+.reprovado{
+    background-color: red;
+}
+
+.exame{
+    background-color: blue;
+}
